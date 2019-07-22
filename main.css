@@ -1,0 +1,109 @@
+.nav-link{
+	color: darkgrey;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 14px;
+	padding-right: -10px;
+}
+.active{
+	color: blue;
+}
+.header{
+	display: inline-flex;
+	padding-bottom: 1%;
+	padding-top: 1.5%;
+}
+.logo{
+	width: 30%; 
+	padding-left: 6%;
+}
+.maincontainer{
+	background-image: linear-gradient(to bottom right, #4e92d2, #67c5f5);
+	padding-left: 65px;
+	padding-top: 40px;
+}
+.mcText{
+	color: white;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	font-size: 85px;
+	line-height: 78px;
+}
+.mainPNG{
+	width: 480px;
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 50px;
+}
+.secondcontainer{
+	margin: 130px;
+	margin-top: 50px;
+}
+.pricing-container{
+	padding: 40px;
+	padding-left: 80px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  resize: vertical;
+  border-radius: 6px;
+}
+
+input[type=submit] {
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #009cfc;
+  border-radius: 6px;
+}
+
+input[type=submit]:hover {
+  background-color: #30b0ff;
+}
+
+/* Style the container/contact section */
+.contact-container {
+  border-radius: 15px;
+  background-color: #f7fcff;
+  padding: 50px;
+  margin: 120px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
