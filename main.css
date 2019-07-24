@@ -12,13 +12,14 @@
 	display: inline-flex;
 	padding-bottom: 1%;
 	padding-top: 1.5%;
+  width: 99%;
 }
 .logo{
 	width: 30%; 
 	padding-left: 6%;
 }
 .maincontainer{
-	background-image: linear-gradient(to bottom right, #4e92d2, #67c5f5);
+	background-image: linear-gradient(to bottom right, #4e92d2, #abe3ff);
 	padding-left: 65px;
 	padding-top: 40px;
 }
